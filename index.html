@@ -1,0 +1,30 @@
+﻿<!doctype html>
+<html lang="zh-Hant" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>今天天氣適合穿什麼 | WEAR/TODAY</title>
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="styles.css">
+<script src="theme.js"></script>
+<script defer src="vendor/lunar.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body class="b">
+<div class="orbs" aria-hidden="true"><i></i><i></i><i></i></div>
+<header class="mast"><b>WEAR/TODAY</b><div class="controls">
+<button id="theme-toggle" class="glass" aria-label="切換亮暗主題" aria-pressed="false"><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l2 2m10 10 2 2M5 19l2-2M17 7l2-2M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/></svg><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg></button>
+<button id="locate" class="glass" aria-label="使用目前位置"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v4m0 12v4M2 12h4m12 0h4M18 12a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z"/></svg></button>
+</div></header>
+<div class="toolbar"><label for="city-select">城市</label><select id="city-select"><option value="shanghai">上海</option><option value="beijing">北京</option><option value="taipei">台北</option><option value="hongkong">香港</option><option value="tokyo">東京</option></select><button id="refresh">更新天氣</button></div>
+<p id="status" class="location-status" role="status">正在載入上海天氣…</p>
+<main class="bento" aria-busy="true">
+<section class="glass hero"><div class="split"><h1 id="city">上海</h1><time id="date" class="mono"></time></div><div class="temp"><span id="temperature">—</span><span>°</span></div><div class="readout"><span>體感 <b id="feels">—</b></span><span id="range" class="mono">H — / L —</span></div></section>
+<section class="glass sky"><h2>天氣</h2><svg class="cloud" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M11 30h19a6 6 0 0 0 0-12h-2a9 9 0 0 0-17-1 6.5 6.5 0 0 0 0 13Z"/></svg><strong id="condition">—</strong><span>風速 <b id="wind">—</b></span></section>
+<section class="glass moisture"><div><span id="rain-label">降雨</span><b id="rain">—</b></div><div>濕度 <b id="humidity">—</b></div></section>
+<section class="glass outfit"><div class="split"><h2>穿搭建議</h2><span id="umbrella" class="tag" hidden>建議帶傘</span></div><p id="summary">依即時預報提供建議</p><ol id="layers" class="layers"></ol></section>
+<section class="glass lucky"><div class="split"><h2>五行幸運色</h2><span id="element"></span></div><div id="colors" class="colors"></div><small id="lunar-note">僅供參考</small></section>
+<section class="glass forecast"><div class="split"><h2>24 小時溫度</h2><span class="mono">°C</span></div><svg id="chart" viewBox="0 0 600 120" role="img" aria-label="24 小時溫度曲線"></svg><div id="chart-labels" class="axis mono"></div></section>
+</main>
+<footer class="sources"><p>天氣資料：<a href="https://api.met.no/">MET Norway</a>（api.met.no）· <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p><p>五行依農曆日柱推算（lunar-javascript）· 僅供參考 · 更新 <time id="updated">—</time></p></footer>
+</body></html>

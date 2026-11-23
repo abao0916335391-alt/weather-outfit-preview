@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/noto-0.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/l/font?kit=-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz75Ky_CpWW2t0EBd8SryIAN52qzkOTcsjMr5mcaLzL3Mfu0ooM6P0sd-7EpkQXfULett982nXFsXn8xrpgH5OQfTVBx7BX4FOXw--WPJYpfvt0f21YKbdA2o4bnrI-O7-MgMnfUU7CJJEXqwvMVfO5rDMjMrQZeSK88A51psuZZRzbf4zmcrg-cjMzVpS4PZP2ECJxbeL1qYLQxDIxd9bu0JlVeRufz1FrnfWfsmC1AP3XH7FkpwvEZMl-ptmo_Yo95y4MqP9dKlx5EK2jozoiquAwP0DsXieGJkDJUp3JsvI_GrU2LLuH8BK3rH4hxVlQRntOnOtf-EIAd_xs0W9ggI_tjXkOSDEG1Of2pd53tWlw3k2XaIl8oQPPTr_6LaBD1SNECDOI7wuczdI1dU4w-tMnnuWQXrkRlMBPIu2A3K7oaDoIMmZHgg3j9n8cwtQ7aNkA1R_2XE_qSQwY4nFagiR3SzHBFQQcK7ua1DoXp__yqB56somWJLAyfQcNb_Ybfxe0bRfq6eQZR05FUtCv_wKdZLiv0lKEuDopWAziSpPtj4wxSMcNOegwEZ0TnjyacGko3bP4-VBxGb20sfm40ZHcIU4Bu_srwI05NWZgxBaxB4Kr_-actHJ2Rw89W-7hv7ZXV-AViycy3b_VEU4MQHMav4zIZIJZoJXGw4akgXKMgh4SEZezvnJbeRZoHXuqvnnuQUF1nta09m2jbWOV-qIl2gAwNGGTCT0G_URbgx9Civ6staiiKKbroCddrTdhbnMD9OFl1u4eA3BU0XCm6p5ueb_NHl685vNhE5sdhkFQd9SeFb-89GN6sQHHqDAKzr2CtbLu_GrFRBKyEQ8xMC4-z0WRfPh36oCrAN2R3QdUZrcZCoTawjOIlXpV8gsDlpI_ffkCDxjgf43jhdvfzM6_eNAMCWfDFiehOKFldn9qNVK9bmJ2kvP91-Fs9c10Yn9cL5Hr_OQvJFb2rkukJ53Xx36_1s52PZg7TVsRHB5&skey=3904269dc8bdd0a1&v=v40) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/l/font?kit=-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz7361_CpWW2t0EBd8SryIAN52qzkOTcsjMr5mcaLzL3Mfu0ooM6P0sd-7EpkQXfULett982nXFsXn8xrpgH5OQfTVBx7BX4FOXw--WPJYpfvt0f21YKbdA2o4bnrI-O7-MgMnfUU7CJJEXqwvMVfO5rDMjMrQZeSK88A51psuZZRzbf4zmcrg-cjMzVpS4PZP2ECJxbeL1qYLQxDIxd9bu0JlVeRufz1FrnfWfsmC1AP3XH7FkpwvEZMl-ptmo_Yo95y4MqP9dKlx5EK2jozoiquAwP0DsXieGJkDJUp3JsvI_GrU2LLuH8BK3rH4hxVlQRntOnOtf-EIAd_xs0W9ggI_tjXkOSDEG1Of2pd53tWlw3k2XaIl8oQPPTr_6LaBD1SNECDOI7wuczdI1dU4w-tMnnuWQXrkRlMBPIu2A3K7oaDoIMmZHgg3j9n8cwtQ7aNkA1R_2XE_qSQwY4nFagiR3SzHBFQQcK7ua1DoXp__yqB56somWJLAyfQcNb_Ybfxe0bRfq6eQZR05FUtCv_wKdZLiv0lKEuDopWAziSpPtj4wxSMcNOegwEZ0TnjyacGko3bP4-VBxGb20sfm40ZHcIU4Bu_srwI05NWZgxBaxB4Kr_-actHJ2Rw89W-7hv7ZXV-AViycy3b_VEU4MQHMav4zIZIJZoJXGw4akgXKMgh4SEZezvnJbeRZoHXuqvnnuQUF1nta09m2jbWOV-qIl2gAwNGGTCT0G_URbgx9Civ6staiiKKbroCddrTdhbnMD9OFl1u4eA3BU0XCm6p5ueb_NHl685vNhE5sdhkFQd9SeFb-89GN6sQHHqDAKzr2CtbLu_GrFRBKyEQ8xMC4-z0WRfPh36oCrAN2R3QdUZrcZCoTawjOIlXpV8gsDlpI_ffkCDxjgf43jhdvfzM6_eNAMCWfDFiehOKFldn9qNVK9bmJ2kvP91-Fs9c10Yn9cL5Hr_OQvJFb2rkukJ53Xx36_1s52PZg7TVsRHB5&skey=3904269dc8bdd0a1&v=v40) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz70e1_CpWW2t0EBd8SryIAN52qzkOTcsjMr5mcaLzL3Mfu0ooM6P0sd-7EpkQXfULett982nXFsXn8xrpgH5OQfTVBx7BX4FOXw--WPJYpfvt0f21YKbdA2o4bnrI-O7-MgMnfUU7CJJEXqwvMVfO5rDMjMrQZeSK88A51psuZZRzbf4zmcrg-cjMzVpS4PZP2ECJxbeL1qYLQxDIxd9bu0JlVeRufz1FrnfWfsmC1AP3XH7FkpwvEZMl-ptmo_Yo95y4MqP9dKlx5EK2jozoiquAwP0DsXieGJkDJUp3JsvI_GrU2LLuH8BK3rH4hxVlQRntOnOtf-EIAd_xs0W9ggI_tjXkOSDEG1Of2pd53tWlw3k2XaIl8oQPPTr_6LaBD1SNECDOI7wuczdI1dU4w-tMnnuWQXrkRlMBPIu2A3K7oaDoIMmZHgg3j9n8cwtQ7aNkA1R_2XE_qSQwY4nFagiR3SzHBFQQcK7ua1DoXp__yqB56somWJLAyfQcNb_Ybfxe0bRfq6eQZR05FUtCv_wKdZLiv0lKEuDopWAziSpPtj4wxSMcNOegwEZ0TnjyacGko3bP4-VBxGb20sfm40ZHcIU4Bu_srwI05NWZgxBaxB4Kr_-actHJ2Rw89W-7hv7ZXV-AViycy3b_VEU4MQHMav4zIZIJZoJXGw4akgXKMgh4SEZezvnJbeRZoHXuqvnnuQUF1nta09m2jbWOV-qIl2gAwNGGTCT0G_URbgx9Civ6staiiKKbroCddrTdhbnMD9OFl1u4eA3BU0XCm6p5ueb_NHl685vNhE5sdhkFQd9SeFb-89GN6sQHHqDAKzr2CtbLu_GrFRBKyEQ8xMC4-z0WRfPh36oCrAN2R3QdUZrcZCoTawjOIlXpV8gsDlpI_ffkCDxjgf43jhdvfzM6_eNAMCWfDFiehOKFldn9qNVK9bmJ2kvP91-Fs9c10Yn9cL5Hr_OQvJFb2rkukJ53Xx36_1s52PZg7TVsRHB5&skey=3904269dc8bdd0a1&v=v40) format('truetype');
+}
+/* latin */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500 700;
+  src: url(./fonts/space-0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/mono-0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
